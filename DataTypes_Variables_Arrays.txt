@@ -1,0 +1,83 @@
+Data Types in Java:
+-------------------
+Primitive Data types
+Names      Size      Default Value    Wrapper Class(java.lang)
+byte  --   1 byte     0			Byte
+short      2 byte     0			Short
+char	   2 byte     single space      Character
+int	   4 byte     0                 Integer
+long       8 byte     0			Long
+float      4 byte     0.0f		Float
+double     8 byte     0.0		Double
+boolean    1 bit      false		Boolean
+	(true/false)  
+
+
+
+Non-Primitive Data types / Reference Types
+Any class type or interface type is known as reference type.
+Employee e1;
+String s1;
+Object o;
+Default value for any reference type is null.
+
+
+
+
+In Java we have 3 types of variables based on scope
+1. Local variables / Thread-Level Variable
+A variable which is declare inside the block(method,constructor, forloop , while,trycatch,if)
+Or variables declare as parameters
+
+Local variable values should be initialize by the user , it can't be initialize by JVM.
+
+2. Instance variables / Object Level Variable
+A variable declare inside the class and outside all the methods or blocks without static.
+Instance members can be accessible using only object references.
+
+3. static variables / Class Level variable
+A variable declare inside the class and outside all the methods or blocks with static.
+Static members can be accessible using object reference or class name
+
+
+
+
+class Object{
+
+
+
+public Object(){
+
+	// heap memory allocation
+	// copy of instance vars created
+	//  hashcode will generated
+		
+
+}
+
+
+}
+
+
+OverLoading:
+=============
+Overloading can place with in a same class , it is possible for methods and constructors
+
+In Overloading names should be same but signature should be different.
+We dont consider return types in overloading.
+
+It is also known as Static or Compile time polymorphism.
+
+
+
+Arrays:
+--------
+Collection of similar type of elements or homogenous elements.
+
+int  arr[] = new int[30];
+
+arr[0] = 101;
+arr[1] = 102;
+
+
+
