@@ -1,0 +1,39 @@
+Java Introduction:
+
+Java is an Object Oriented Programming Language
+It is High Level Programming Lang.
+The Java Software(JDK,JVM) is implemented by using C-Lang that is the reason JVM,JDK are Platform Dependent.
+The Softwares/Applications developed by using Java are Platform Independent.
+Java is API(Application Programming Interface) Based Language.
+Java is Multi-Tasking (MultiThreading)
+It is secure.
+It is Robust.
+
+Technologies Develop By using Java or Used with Java:
+1. BigData (Hadoop)
+2. Salesforce
+3. Blockchain
+4. Cloud
+5. IOT
+6. ML/AI
+7. SAP / ABAP / HANA
+8. Android
+9. Framework Angular,ReactJS,Vue.js
+10. Docker , Devops
+11. Jenkins,SonarQube
+
+
+
+Java Naming Convections:
+========================
+package: lowercase  
+Ex:  app , com.app , com.vodafone.app
+    java.lang , java.util , java.time
+
+class/interface : InitCap
+Ex:  Student , StudentDemo , HelloWorld
+	Object , 
+
+
+
+
