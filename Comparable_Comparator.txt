@@ -1,0 +1,16 @@
+java.lang;
+Comparable Interface
+compareTo();
+
+All Wrapper classes and String , StringBuffer class
+
+Note: TreeSet can sort only those objects who's class implements comparable interface
+ (overide compareTo() )
+
+-------------------------------
+java.util;
+
+Comparator interface
+compare();
+
+Note: For customize sorting  for user-defined or predefined classes we can use Comparator interface.

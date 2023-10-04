@@ -7,5 +7,7 @@ public abstract class HardDiskImp1 implements IHardDisk {
 			return "500GB";
 			
 		}
+		
+		public abstract double price();
 	
 }

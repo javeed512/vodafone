@@ -1,0 +1,20 @@
+Java-8 Features:
+================
+1. Functional Interface
+2. default , static methods
+3. Lambda Expression
+4. java.time package
+5. Stream API
+
+Lambda Expression is a implemention to the Functional Interface.
+For every lambda expression , return type is functional interface.
+
+Wrapper Classes:
+================
+Byte,Short,Character,Integer,Long , Float,Dlouble , Boolean
+
+	int x = 50;
+
+	Integer i1 = new Integer(x);
+
+	Integer i2 =	new Integer("99");

@@ -3,7 +3,7 @@ package abstraction;
 public interface IHardDisk {
 	
 	
-	String  size();
+public abstract	String  size();
 	double  price();
 	
 	public static void m1() {
