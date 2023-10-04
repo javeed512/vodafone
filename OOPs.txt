@@ -1,0 +1,87 @@
+Access Modifiers
+----------------
+1. default : with in a current package
+2. private : with  in a program or file
+3. public  : global any where with in a package and also outside the package(another packages)
+4. protected : it behaves like default , but also behaves like public when there is a relationship 		between two classes available in two different packages
+
+
+
+Object Oriented Programming Concepts:
+======================================
+
+Encapsulation: 
+Binding Data and Data members(methods,constructors) in a single unit.
+Ex: Object binding data , methods binding logics/code , class 
+
+Encapsulation is nothing but hiding data.
+
+Inheritance:
+Access properties from one class to another ie., from super class to child class.
+
+Note; Object is the super most class for all java classes.
+
+In Java we can have multi-level inheritance for classes.
+In Java multiple inheritance is not possible for classes , but only for interfaces its possible.
+
+
+Polymorphism: Many-Forms
+
+One Entity / Person behaves or play different roles.
+
+Two types of Polymorphism
+1. Compile time / static polymorphism
+Ex: method overloading , constructor overloading, operator overloading
+
+2. Runtime  / Dynamic polymorphism
+Ex: Method Overriding , Parent reference var holding child class object.
+
+Abstraction:
+===========
+Hiding implementation code and highlighting set of services to the users.
+Abstraction: 
+• Hide internal implementation and just highlight the set of services, is called abstraction. 
+• By using interfaces and  abstract / implementation classes we can implement abstraction. 
+Example:
+• By using ATM GUI screen bank people are highlighting the set of services what they are 
+offering without highlighting internal implementation. 
+• The main advantages of Abstraction are: 
+171 
+1) We can achieve security as we are not highlighting our internal implementation. 
+2) Enhancement will become very easy because without effecting end user we can able to 
+perform any type of changes in our internal system.
+3) It provides more flexibility to the end user to use system very easily. 
+4) It improves maintainability of the application.
+
+Encapsulation = Data Hiding + Abstraction
+
+Interface:
+----------
+User: Set of services , provided by service-provider and used by customer.
+Developers: Interface is a Specification or Set of services which  need to be implement by developers
+
+public interface MyInterface{
+
+	public static final  String IFSC = "HDFC123";
+		
+
+	public abstract void add(int a, int b);
+
+	// FROM JAVA-8 we can have methods with body inside interfaces using static or default keyword
+
+		
+	public static void m1(){
+			// logics
+	}
+
+	public default void m2(){
+
+		// logics
+	}
+
+
+}
+
+
+
+

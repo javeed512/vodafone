@@ -18,7 +18,7 @@ public class Student {
 	public Student(int sid, String sname) {
 		super();
 		this.sid = sid;
-		this.sname = sname;
+		this.sname = sname; 
 	}
 
 
