@@ -1,0 +1,40 @@
+Runnable interface:
+run();
+
+class Thread implements Runnable{
+
+	void run(){
+		// empty
+		}
+
+
+	start(){
+
+		// Register thread to ThreadScheduler
+		// calling run();
+	}
+
+	sleep();
+	setter and getter
+
+
+}
+
+
+
+
+Asynchronization:
+Not Thread safe
+Means multiple threads can access that resource.
+
+Synchronization:
+
+Thread safe
+Only one thread can access that resource.
+
+
+
+
+
+
+

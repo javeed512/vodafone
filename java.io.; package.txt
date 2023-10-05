@@ -1,0 +1,92 @@
+java.io.*; package
+
+Stream: Flow of Data 
+Streaming: Flowing data from source to destination.
+
+
+
+ByteStream (stream data byte by byte)
+
+ByteStream classes should be used while streaming bulk of char and non-char
+Text,Images,Audio,Video,Digital Signature
+
+InputStream  (reading)  read();
+FileInputStream
+BufferedInputStream
+ObjectInputStream
+
+
+OutputStream   (writing)  write();
+FileOutputStream
+BufferedOutputStream
+ObjectOutputStream
+
+close(); to close or release buffer or resources
+
+CharacterStream (stream data char by char)
+It should be used while streaming pure character data or text.
+
+Reader           read();
+FileReader
+BufferedReader
+InputStreamReader
+
+
+
+Writer         write();
+FileWriter
+BufferedWriter
+PrintWriter
+
+
+
+
+
+read(): it reads one character at a time and returns that char ASCII value.
+
+ ABCD ===>    A -->read(); 65
+		B -->read(); 66
+
+
+write(); it can write one character at a time , as character ASCII
+
+write(65); ---> A
+
+
+
+class PrintStream{
+
+	print(){....}
+	println(){....}
+
+}
+
+
+
+
+class System{
+
+ static InputStream in;
+ static PrintStream out;
+ static PrintStream err;
+
+
+}
+
+
+
+System.out.print();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
