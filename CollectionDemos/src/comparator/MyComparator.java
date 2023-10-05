@@ -10,8 +10,8 @@ public class MyComparator implements Comparator<Student>{
 			String str1 = s1.toString();
 			String str2 = s2.toString();
 		
-		return str1.compareTo(str2);
-	}
+		return -str1.compareTo(str2);
+	}   
 
 	
 

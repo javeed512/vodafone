@@ -1,6 +1,7 @@
 package com.collections;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 public class SetDemos {
@@ -26,6 +27,15 @@ public class SetDemos {
 			set2.add("A");  
 			
 			System.out.println(set2);
+			
+			Iterator<String> it = set2.iterator();
+			
+			while (it.hasNext()) {
+				String item =  it.next();
+				System.out.println(item);
+				
+			}
+			
 		
 	}
 

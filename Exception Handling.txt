@@ -1,0 +1,16 @@
+Exception Handling:
+
+Exception: Any unwanted , unexpected output during the program execution is exception.
+Exception leads to program termination , if we handle exception program terminates normally else abnormal termination take place.
+
+Keywords:
+=========
+
+throws: it is used to throws exception from callee to the caller. (It does not handle exception)
+try-catch:  try and catch is the only option to handle exception in java.
+In try block we can write risky code(code responsible for exp)
+In catch block can handle exception and display appropriate message/info.
+
+finally: finally block is used to write the code which is compulsory to execute irrespective of exception occur or does not occur.
+
+throw: this keyword is used to throw any exception explicitly.
