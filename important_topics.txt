@@ -1,0 +1,18 @@
+
+Core Java:
+ 
+All OOPs Concepts
+class,abstract class, interfaces
+
+type casting
+overloading,overriding
+lambda expression
+
+Exception Handling
+String , arrays
+Collections
+ArrayList,HashSet,TreeSet,HashMap,TreeMap,Iterator
+
+Junit 
+
+JDBC 

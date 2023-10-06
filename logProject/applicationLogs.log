@@ -1,0 +1,2 @@
+[main] INFO  app.LogDemo  - Hello world
+[main] INFO  app.LogDemo  - we are in logger info mode

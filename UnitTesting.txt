@@ -1,0 +1,95 @@
+SDLC:
+1.Requirement 
+2. Analyse and Design
+3. Code implementation / Code Development
+  Unit Testing by Developer
+4. Integration Testing by Testers or QA
+5. Deployment and Maintenanc
+
+
+Unit Testing:
+Testing a particular unit or piece of code in application by the developer itself is known as
+ UNIT TESTING.
+
+Ex: Unit --> function , method , class , web page 
+
+Why Testing?
+
+1. Testing help us to known quality of software.
+2. To find bugs
+3. Verify software is as per client requirement
+4. Check software security and robustness
+
+For unit testing we use test cases / sequence of inputs
+
+   Login Page
+
+ User :    [     ]  *UserName min 4 , max 10
+ Password: [     ]  *Password min 8, max 20 and digits , special char 
+	(Login)
+
+valid inputs: valid user,password
+invalid inputs: invalid user, valid password  or invalid user,invalid password
+expected inputs :  username 4 char , username 10 char
+unexpected inputs: username 2 char, password more than 20 char
+
+
+In c,c++ we deliver software to customer in .exe format.
+
+In Java, we deliver softwares to customer in .jar or .war 
+jar - java archive  (desktop app/stand alone app)
+war - java web-archive (web applications)
+
+
+
+
+JUNIT Library / JUNIT API:
+===========================
+org.junit.jupiter.api.*;
+junit-5.jar (package--> Classes,methods)
+
+JUNIT5 or Jupiter version
+
+
+int add(int a,int b);
+
+TDD: Test Driven Development.
+In this first test cases will be written with all possible inputs and after that actual coding will be done.
+
+class Test{
+
+	void testAdd(){
+		
+		int actual = add(4,5);
+		assertEquals(9,actual);	
+
+	}
+
+
+
+}
+
+
+Annotations in JUnit5:
+======================
+@Test 
+@BeforeEach
+@AfterEach
+@BeforeAll
+@AfterAll
+@Disabled
+@DisplayName
+
+org.junit.jupiter.api;
+Assertions class ***
+all static methods
+ assertXXX();
+assertEquals();
+assertNotEquals();
+assertTrue();
+assertNull();
+assertNotNull();
+
+
+
+

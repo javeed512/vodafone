@@ -1,0 +1,35 @@
+Log4j:
+------
+Its a library use for logging message in java application.
+
+logging: writing message to the console or file.
+
+log4j.jar (package,classes,methods)
+
+Log Configuration we can use log4j.properties
+
+Properties file is text file in java which stores key,value pairs.
+
+Log4J levels
+
+OFF :	The highest possible rank and is intended to turn off logging.
+FATAL:	Severe errors that cause premature termination. Expect these to be immediately visible on a status console/file.
+
+ERROR :	Other runtime errors or unexpected conditions. Expect these to be immediately visible on a status console.
+
+WARN :	Use of deprecated APIs, poor use of API, 'almost' errors, other runtime situations that are undesirable or unexpected, but not necessarily "wrong". Expect these to be immediately visible on a status console.
+
+INFO  :	Interesting runtime events (startup/shutdown). Expect these to be immediately visible on a console, so be conservative and keep to a minimum.
+
+DEBUG :	Detailed information on the flow through the system. Expect these to be written to logs only. Generally speaking, most lines logged by your application should be written as DEBUG.
+
+TRACE :	Most detailed information. Expect these to be written to logs only
+
+FATAL < ERROR < WARN < INFO < DEBUG < TRACE
+
+Steps to use Log4j:
+
+1.Download and add log4j jar file in java project , where we want to add loggings.
+2. Create Configuration file , log4j.properties file
+3. Create some Logger class object and use in your java classes 
+4. Use log object and call methods to print or log messages in console or files
