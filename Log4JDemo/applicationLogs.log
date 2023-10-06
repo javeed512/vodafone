@@ -1,0 +1,5 @@
+[main] DEBUG logging.Main  - hello world
+[main] DEBUG logging.Main  - thank you
+[main] INFO  logging.Main  - hi friends
+[main] ERROR logging.Main  - some error
+[main] WARN  logging.Main  - warning..
