@@ -1,0 +1,87 @@
+Spring Framework:
+------------------
+It consist of lots of multiple modules or  APIs , 
+Core Spring module
+JDBC module
+Testing module
+Hibernate module
+Spring MVC Architecture
+
+Spring is a open source , light weigth framework based on IOC and AOP.
+
+DI:Dependency Injection
+DI means where one object will get injected into another object.
+i. Setter methods DI
+ii. constructor DI 
+
+
+
+
+class  Address{
+
+ String city;
+
+}
+
+
+class Employee {
+
+ int eid;
+String ename;
+Address address; // HAS A relationship
+
+	public void setAddressAddress address){
+
+		this.address = address;
+	}
+
+
+	public Employee(){
+
+	}
+
+	public Employee(Address address){
+
+	this.address = address;
+	}
+
+
+	Employee e1 = new Employee(new Address()); // constructor DI
+
+	Employee e2 = new Employee();
+		e2.setAddress(new Address()); // setter method DI
+
+}
+
+
+IOC: Inversion of Control
+
+Ex: Instead of Person-A , Person-B will do the work and Person-A will enjoy result.
+
+In Spring framework , spring container or IOC Container will create object on behalf of developer and also spring container can perform dependency injections among objects.
+
+Configurations:  // instructor
+
+1. xml file (old out dated)
+2. annotations @Bean
+
+Spring Annotations:
+===================
+@Component  // pojo classes
+@Service    // service classes
+@Repository  // dao class or repository class
+@Controller  // servlet class
+
+@Bean          
+@Configuration
+
+@Autowire  // it is used to inject object and access objects
+
+
+
+
+
+
+
+
+	
