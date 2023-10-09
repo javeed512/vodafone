@@ -1,0 +1,166 @@
+Java Important topics:
+----------------------
+Data types:
+primitives: byte,short,char,int,long,float,double,boolean
+non-primitives / reference:
+Class Type or Interface Type  default value null
+
+Access Modifiers:
+private , default , public , protected
+
+Overloading means same name but diff signature
+It take place with in class 
+Ex: Constructor , methods , operator
+  3+5 = 8 , "hello"+"world"  --> helloworld
+
+Overloading compile time/static polymorphism
+
+Overriding: Between parent and child class 
+Only possible for methods 
+
+declare it as private or final keyboard to avoid method overriding
+
+Overiding also known runtime polymorphism
+
+Parent p = new Child();
+
+
+Wrapper class:
+int num = Integer.parseInt("102");  // num = 102 integer store
+
+class Object{
+
+
+	toString();
+	equals(); // it compare 2 object refs or hashcode
+	hashcode();
+	finalize();  ---> System.gc();
+	wait();
+	notify();   // inter thread communication purpose
+	notifyAll();
+
+
+}
+
+
+Inheritance:
+Between clases and Between interface
+
+class X extends Y {  
+
+
+}
+
+interface I1  extends I2 , I3 , I4 {  //
+
+
+}
+
+
+class X implements I1 , I2, I3{
+
+
+}
+
+
+
+Abstraction: interfaces + abstract class / implementation class
+
+
+variable:
+1.local   // only final is allowed
+2. instance  object level vars
+3. static   class level vars
+
+
+String class:
+ String s1 = new String("hello");
+String s2 = "world";
+
+concat() , length() , charAt() , toUpperCase() , to LowerCase()
+
+Note: Immutable in nature
+
+String Buffer: Synchronize
+It is mutable in nature
+StringBuilder same as Buffer but its asynchronize
+
+Exception Handling
+
+throws -> throws exception from callee to the caller
+try-catch --> handle exp
+finally --> always irrespective of exp occur or not
+
+throw --> it is used for throwing exp manually
+
+Throwable (parent of Exps and Errors)
+
+
+Exception 
+
+Checked Exp
+IOExp , FileNotFoundExp , IntteruptedExp ,SQLExp
+
+Unchecked Exp (RuntimeExp)
+ArithmeticExp , NullPointerExp, ClassCastExp 
+
+try-catch-catch-catch
+try-finally
+
+Multithreading
+
+1. Runnable interface  --> run();
+2. extends Thread class
+    start() , run() , setter , getter 
+
+join, yield,sleep 
+
+
+Char Stream
+===========
+
+Reader          int ASCI =  read();// READ ONE CHAR AT A TIME
+FileReader
+BufferedReader
+
+
+Writer
+FileWriter    write(65); // one char at a time ASCII 
+PrintWriter
+
+
+ByteStream
+----------
+InputStream
+FileInputStream
+ObjectInputStream
+
+
+OutputStream
+FileOutputStream
+ObjectOutputStream
+
+Marker Interface:
+ Serializable,Cloneable , RandomAccess 
+
+
+
+Functional Interface:
+ having exactly one abstract method only.
+
+ default or static methods
+
+
+Lambda Exp:
+Implementation to any functional interface
+
+ MyInterface mi =    () -> {  logics };
+
+
+
+
+
+
+
+
+
