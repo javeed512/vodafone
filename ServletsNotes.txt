@@ -1,0 +1,52 @@
+WEB SERVER:
+A Server which host web application / websites.
+In Java Web Servers can execute servlets and jsp code because they have only servlet+jsp engines.
+Ex: Apache Tomcat , Glassfish , JBoss , Resin , Weblogic ...
+Example of web app : Regional websites , university website, shopping mall , medical stores
+
+Application Server:
+A server which host  Enterprise application known as Application server.
+Ex: JBoss,Weblogic , Resin
+Example of enterprise apps:  Amazon , Flipkart, Facebook, Google ..... 
+
+Servlet API:
+------------
+JEE: Java Enterprise Edition , all advance java concepts / technologies comes under JEE
+Ex: servlet,jsp,spring,struts,jsf,webservices,microservices.....
+
+javax.servlet.*;
+
+interfaces:
+Servlet
+ServletRequest
+ServletResponse
+ServletConfig
+ServletContext
+
+class:
+GenericServlet (implementation of Servlet interface)
+
+javax.servlet.http.*;
+
+interfaces:
+HttpServletRequest
+HttpServletResponse
+
+class:
+HttpServlet  (it is a child of GenericServlet)
+
+
+Note: GenericServlet class has 3 life  cycle methods  init() --> service() ---> destroy()
+
+Now, we should extends HttpServlet class to creat our own Servlet classes.
+
+
+URL: Uniform Resource Locator
+ex: www.google.com , www.facebook.com
+
+URI: Uniform Resource Identifier
+ex: www.facebook.com/users/loginpage.html
+
+
+
+
